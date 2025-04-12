@@ -1,11 +1,11 @@
 ** Intervue Login Automation Test**
 
-This Java Selenium automation script logs into [Intervue.io](https://www.intervue.io), performs a search, and logs out.
+This is a Java Selenium automation script that logs into [Intervue.io](https://www.intervue.io), performs a search and then logs out.
 
 ## Prerequisites
-- Java 17 or above
+- Java 17 or higher installed
 - Selenium WebDriver library added to your project (via Maven or JAR files)
-- Chrome browser installed
+- Google Chrome browser installed
 - ChromeDriver (version must match your Chrome browser)
 - Any Java IDE (like Eclipse, IntelliJ IDEA, or VS Code)
 
@@ -13,24 +13,24 @@ This Java Selenium automation script logs into [Intervue.io](https://www.intervu
 IntervueLoginTest/ src/ intervue/ IntervueLoginTest.java
 
 ## How to Run
-1. Clone or download this repo.
-2. Open it in your IDE.
-3. Update the ChromeDriver path in:
+- Clone or download this repository.
+- Open the project in your preferred Java IDE.
+- Update the ChromeDriver path in the script:
    System.setProperty("webdriver.chrome.driver", "path/to/chromedriver.exe");
-4. Run the IntervueLoginTest.java file.
+- Run the IntervueLoginTest.java file.
 
 ## What It Does
-Opens intervue.io
-Logs in with test credentials
-Clicks the search icon and searches for the word hello
-Clicks on the matching suggestion
-Opens the profile/user dropdown and logs out
+- Launches Intervue.io
+- Logs in using test credentials
+- Clicks the search icon and searches for the word "hello"
+- Clicks on the matching suggestion
+- Opens the profile dropdown and logs out
 
 ## Test Credentials
-Email: neha@intervue.io
-Password: Ps@neha@123
-Note: These credentials are provided for assignment/testing purposes only.
+- Email: neha@intervue.io
+- Password: Ps@neha@123
+Note: These credentials are provided only for the assignment.
 
 ## Demo
-Watch the complete automation flow in action:  
+Watch the complete automation flow from login to logout in action:
 [Click here to view the video demo on Google Drive](https://drive.google.com/file/d/1Kck9YkZrOHror9JCi-cBirv_o0-J8Lbf/view?usp=sharing)
