@@ -21,6 +21,7 @@ IntervueLoginTest/ src/ intervue/ IntervueLoginTest.java
 
 ## What It Does
 - Launches Intervue.io
+- Hovers over the top menu items: Products, Solutions, and Resources
 - Logs in using test credentials
 - Clicks the search icon and searches for the word "hello"
 - Clicks on the matching suggestion
@@ -34,4 +35,4 @@ Note: These credentials are provided only for the assignment.
 
 ## Demo
 Watch the complete automation flow from login to logout in action:
-[Click here to view the video demo on Google Drive](https://drive.google.com/file/d/1Kck9YkZrOHror9JCi-cBirv_o0-J8Lbf/view?usp=sharing)
+[Click here to view the video demo on Google Drive](https://drive.google.com/file/d/1UwqR9tqRENIFXjV1tQALMMK4B5_mpiLe/view?usp=drive_link)
